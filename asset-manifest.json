@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mateusmcamargo/obd-zen/static/css/main.4e1b23aa.css",
+    "main.js": "/mateusmcamargo/obd-zen/static/js/main.52b9a142.js",
+    "index.html": "/mateusmcamargo/obd-zen/index.html",
+    "main.4e1b23aa.css.map": "/mateusmcamargo/obd-zen/static/css/main.4e1b23aa.css.map",
+    "main.52b9a142.js.map": "/mateusmcamargo/obd-zen/static/js/main.52b9a142.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e1b23aa.css",
+    "static/js/main.52b9a142.js"
+  ]
+}
