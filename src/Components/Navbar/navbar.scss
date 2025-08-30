@@ -1,0 +1,107 @@
+@import '../../Styles/colors';
+
+$navbar-height: 5vh;
+
+button {
+    background: none;
+    cursor: pointer;
+    
+    &:hover {
+        i {
+            color: $color-lighter;
+        }
+    }
+    i {
+        font-size: 1.4rem;
+        color: $color-light;
+    }
+
+
+}
+
+section.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 1rem 2rem;
+    background-color: $color-darker;
+
+    .branding {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        
+        div.logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            i {
+                font-size: 2.4rem;
+                color: $color-primary;
+            }
+        }
+
+        div.text {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            gap: .5rem;
+
+            h1 {
+                color: $color-lighter;
+                font-size: 1.8rem;
+                font-weight: 600;
+            }
+            
+            h2 {
+                color: $color-secondary;
+                font-size: 1.2rem;
+                font-weight: 400;
+
+                border-radius: 10rem;
+                padding: .3rem .8rem;
+                background-color: $color-secondary-dark;
+            }
+        }
+    }
+
+    div.actions {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+
+        div.connection {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: .5rem;
+
+            border-radius: 1rem;
+            padding: .5rem 1rem;
+            background-color: $color-primary-dark;
+
+            i {
+                font-size: 1.4rem;
+                color: $color-primary;
+            }
+
+            p {
+                font-size: 1.4rem;
+                font-weight: 5  00;
+                color: $color-primary;
+            }
+        }
+
+        div.settings {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+        }
+    }
+
+}

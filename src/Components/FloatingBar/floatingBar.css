@@ -1,0 +1,39 @@
+section.floating-bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: fixed;
+  bottom: 0;
+  margin: 2rem 10vw;
+  width: 80vw;
+  height: 4.2rem;
+  border-radius: 10rem;
+  transition: 0.2s ease;
+  transform: translateY(200%);
+  filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.2));
+}
+section.floating-bar.visible {
+  transform: translateY(0);
+}
+section.floating-bar button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.4rem;
+}
+section.floating-bar button.help {
+  border-radius: 10rem 0 0 10rem;
+  color: #D8422B;
+  background-color: #31221F;
+}
+section.floating-bar button.help i {
+  color: #D8422B;
+}
+section.floating-bar button.more {
+  border-radius: 0 10rem 10rem 0;
+  color: #F5F2F2;
+  background-color: #1F1F1F;
+}
+section.floating-bar button.more i {
+  color: #F5F2F2;
+}/*# sourceMappingURL=floatingbar.css.map */

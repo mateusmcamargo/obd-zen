@@ -1,0 +1,47 @@
+@import '../../Styles/colors';
+
+section.floating-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    position: fixed;
+    bottom: 0;
+    margin: 2rem 10vw;
+
+    width: 80vw;
+    height: 4.2rem;
+    border-radius: 10rem;
+    transition: .2s ease;
+    transform: translateY(200%);
+    filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.2));
+
+    &.visible {
+        transform: translateY(0);
+    }
+
+    button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        font-size: 1.4rem;
+
+        &.help {
+            border-radius: 10rem 0 0 10rem;
+            color: $color-primary;
+            background-color: $color-primary-dark;
+
+            i {color: $color-primary;}
+        }
+
+        &.more {
+            border-radius: 0 10rem 10rem 0;
+            color: $color-lighter;
+            background-color: $color-darker;
+
+            i {
+                color: $color-lighter;
+            }
+        }
+    }
+}

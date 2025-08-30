@@ -1,0 +1,84 @@
+button {
+  background: none;
+  cursor: pointer;
+}
+button:hover i {
+  color: #F5F2F2;
+}
+button i {
+  font-size: 1.4rem;
+  color: #838383;
+}
+
+section.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #1F1F1F;
+}
+section.navbar .branding {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+section.navbar .branding div.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.navbar .branding div.logo i {
+  font-size: 2.4rem;
+  color: #D8422B;
+}
+section.navbar .branding div.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.5rem;
+}
+section.navbar .branding div.text h1 {
+  color: #F5F2F2;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+section.navbar .branding div.text h2 {
+  color: #FFE100;
+  font-size: 1.2rem;
+  font-weight: 400;
+  border-radius: 10rem;
+  padding: 0.3rem 0.8rem;
+  background-color: #4a4022;
+}
+section.navbar div.actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+section.navbar div.actions div.connection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #31221F;
+}
+section.navbar div.actions div.connection i {
+  font-size: 1.4rem;
+  color: #D8422B;
+}
+section.navbar div.actions div.connection p {
+  font-size: 1.4rem;
+  font-weight: 5 0;
+  color: #D8422B;
+}
+section.navbar div.actions div.settings {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}/*# sourceMappingURL=navbar.css.map */
