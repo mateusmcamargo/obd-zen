@@ -24,8 +24,20 @@ section.navbar {
     align-items: center;
     justify-content: space-between;
     
+    position: fixed;
+    top: 0;
+
+    width: 100vw;
     padding: 1rem 2rem;
     background-color: $color-darker;
+
+    transition: .2s ease;
+    transform: translateY(-100%);
+    filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.2));
+
+    &.visible {
+        transform: translateY(0);
+    }
 
     .branding {
         display: flex;

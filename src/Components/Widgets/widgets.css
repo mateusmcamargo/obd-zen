@@ -3,7 +3,7 @@ main {
   flex-direction: column;
   gap: 2rem;
   background-color: black;
-  padding: 2rem;
+  padding: 8rem 2rem 2rem 2rem;
 }
 main section.widget {
   display: flex;

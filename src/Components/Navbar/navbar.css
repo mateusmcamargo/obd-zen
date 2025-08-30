@@ -7,15 +7,24 @@ button:hover i {
 }
 button i {
   font-size: 1.4rem;
-  color: #838383;
+  color: #9a9a9a;
 }
 
 section.navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100vw;
   padding: 1rem 2rem;
   background-color: #1F1F1F;
+  transition: 0.2s ease;
+  transform: translateY(-100%);
+  filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.2));
+}
+section.navbar.visible {
+  transform: translateY(0);
 }
 section.navbar .branding {
   display: flex;

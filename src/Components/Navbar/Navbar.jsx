@@ -1,9 +1,27 @@
+import { useEffect, useState } from 'react';
 import './navbar.css'
 
 export function Navbar() {
 
+    const [visible,     setVisible]     = useState(true);
+    const [lastScrollY, setLastScrollY] = useState(0);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY < lastScrollY && window.scrollY > 100) {
+                setVisible(false);
+            } else {
+                setVisible(true);
+            }
+            setLastScrollY(window.scrollY);
+        }
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, [lastScrollY])
+
     return (
-        <section className='navbar'>
+        <section className={`navbar ${visible ? 'visible' : ''}`}>
             <div className='branding'>
                 <div className='logo'>
                     <i className='fa-solid fa-car'/>
