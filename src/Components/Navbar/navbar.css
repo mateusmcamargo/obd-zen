@@ -16,6 +16,7 @@ section.navbar {
   justify-content: space-between;
   position: fixed;
   top: 0;
+  left: 0;
   width: 100vw;
   padding: 1rem 2rem;
   background-color: #1F1F1F;

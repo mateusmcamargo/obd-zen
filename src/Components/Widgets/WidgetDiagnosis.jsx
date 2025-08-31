@@ -13,20 +13,20 @@ export function WidgetDiagnosis() {
 
             <div className='readings'>
                 <WidgetBlockReadings
-                    readingCode={'B0020'}
-                    readingDate='2 horas atrás'
+                    readingCode={'P0442'}
+                    readingDate='4 minutos atrás'
                 />
                 <WidgetBlockReadings
                     readingCode={'P0123'}
                     readingDate='1 hora atrás'
                 />
                 <WidgetBlockReadings
-                    readingCode={'P0420'}
-                    readingDate='1 dia atrás'
+                    readingCode={'B0020'}
+                    readingDate='2 horas atrás'
                 />
                 <WidgetBlockReadings
-                    readingCode={'P0442'}
-                    readingDate='4 minutos atrás'
+                    readingCode={'P0420'}
+                    readingDate='1 dia atrás'
                 />
             </div>
 
