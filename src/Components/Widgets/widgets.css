@@ -200,6 +200,7 @@ main section.widget div.readings div.widget-block.reading {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  width: 100%;
   gap: 1rem;
   padding: 2rem;
   border-radius: 2rem;
