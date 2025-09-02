@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/obd-zen/static/css/main.85110a50.css",
-    "main.js": "/obd-zen/static/js/main.1b872134.js",
+    "main.css": "/obd-zen/static/css/main.8215fd20.css",
+    "main.js": "/obd-zen/static/js/main.5dd5697d.js",
     "index.html": "/obd-zen/index.html",
-    "main.85110a50.css.map": "/obd-zen/static/css/main.85110a50.css.map",
-    "main.1b872134.js.map": "/obd-zen/static/js/main.1b872134.js.map"
+    "main.8215fd20.css.map": "/obd-zen/static/css/main.8215fd20.css.map",
+    "main.5dd5697d.js.map": "/obd-zen/static/js/main.5dd5697d.js.map"
   },
   "entrypoints": [
-    "static/css/main.85110a50.css",
-    "static/js/main.1b872134.js"
+    "static/css/main.8215fd20.css",
+    "static/js/main.5dd5697d.js"
   ]
 }
