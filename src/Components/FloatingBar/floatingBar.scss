@@ -19,6 +19,22 @@ section.floating-bar {
         transform: translateY(0);
     }
 
+    &.expanded {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+        position: fixed;
+        bottom: 100vh;
+        margin: 0 10vw;
+
+        width: 80vw;
+        height: 4.2rem;
+        border-radius: 10rem;
+        transition: .2s ease;
+        transform: translateY(200%);
+        filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.2));
+    }
+
     button {
         display: flex;
         align-items: center;

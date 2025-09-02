@@ -3,14 +3,13 @@ import { WidgetBlockFooter } from "./Blocks/WidgetBlockFooter";
 import './widgets.css';
 import { WidgetBlockScoreCard } from "./Blocks/WidgetBlockScoreCard";
 
-export function WidgetHealth() {
+export function WidgetOptions() {
     return (
-        <section className='widget health'>
+        <section className='widget options'>
             <WidgetBlockTitle
-                titleText='Saúde do Veículo'
-                titleDescription='Situação geral do sistema'
-                infoIcon='fa-solid fa-arrow-trend-up'
-                infoDescription='Subiu 4%'
+                titleText='Menu Rápido'
+                titleDescription='Funções adicionais'
+                infoIcon='fa-solid fa-compass'
             />
 
             <WidgetBlockScoreCard

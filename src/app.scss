@@ -14,5 +14,12 @@
 }
 
 html {
-	background-color: black;
+	max-width: 47rem;
+	background-color: black;		
+}
+
+@media screen and (max-width: 700px) {
+	html {
+		max-width: 100vw;
+	}
 }
